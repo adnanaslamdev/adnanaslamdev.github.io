@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="assets/img/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Adnan Aslam</title>
+</head>
+
+<body>
+
+    <!--==================== NAV ====================-->
+    <nav class="nav">
+        <ul class="nav__list">
+            <li>
+                <a href="#home" title="Home" class="nav__link active-link">
+                    <i class="ri-home-line"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#projects" title="Projects" class="nav__link">
+                    <i class="ri-folder-line"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#services" title="Services" class="nav__link">
+                    <i class="ri-file-edit-line"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#experience" title="Experience" class="nav__link">
+                    <i class="ri-honour-line"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#contact" title="Contact" class="nav__link">
+                    <i class="ri-send-plane-line"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <!--===== PERFIL =====-->
+                <div class="perfil">
+                    <img src="assets/img/me_0.png" alt="image" class="perfil__img">
+
+                    <div class="perfil__data">
+                        <h1 class="perfil__name">Adnan <br> Aslam</h1>
+
+                        <div class="perfil__buttons">
+                            <a href="#projects" class="button">Projects</a>
+                            <a href="#services" class="button button__black">Services</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--===== INFO =====-->
+                <div class="info">
+                    <div class="info__data">
+                        <div class="info__circle"></div>
+                        <h1 class="info__name">Adnan Aslam</h1>
+                    </div>
+
+                    <div class="info__image">
+                        <img src="assets/img/profile_about.png" alt="image" class="info__img">
+                    </div>
+
+                    <p class="info__description">
+                        Passionate about building full-stack mobile applications with sleek, engaging, and user-friendly
+                        interfaces, aiming to create impactful user experiences.
+                    </p>
+
+                    <a href="assets/pdf/AdnanAslam.pdf" download target="_blank" class="button button__black">Download
+                        CV</a>
+                </div>
+
+
+                <!--===== ABOUT =====-->
+                <div class="about">
+                    <div class="about__name">
+                        Adnan Aslam <b> Mobile App Developer</b>
+                    </div>
+
+                    <p class="about__description">
+                        Located in Islamabad, Pakistan, I have several years of experience in mobile application
+                        development, carrying out several successful projects.
+                    </p>
+
+                    <div class="about__social">
+                        <a href="https://www.linkedin.com/in/adnanaslamdev/" target="_blank" class="about__link">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                        <a href="https://github.com/adnanaslamdev" target="_blank" class="about__link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                        <a href="https://wa.me/03095221463" target="_blank" class="about__link">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+                        <!-- <a href="" target="_blank" class="about__link">
+                            <i class="ri-mail-line"></i>
+                        </a> -->
+                    </div>
+
+                    <div class="about__image">
+                        <img src="assets/img/me_1.png" alt="" class="about__img">
+                    </div>
+
+                    <p class="about__note">
+                        Feel free to reach out via email—I'd be happy to connect and respond!
+                    </p>
+
+                    <a href="#contact" class="button">Contact Me</a>
+                </div>
+
+
+                <!--===== SKILLS =====-->
+                <div class="skills">
+                    <h2 class="skills__title">Skills</h2>
+
+                    <div class="skills__items">
+                        <img src="assets/img/android.svg" alt="image" class="skills__item">
+                        <img src="assets/img/jetpack_compose.svg" alt="image" class="skills__item">
+                        <img src="assets/img/kotlin.svg" alt="image" class="skills__item">
+                        <img src="assets/img/java-4.svg" alt="image" class="skills__item">
+                        <img src="assets/img/skills-figma.svg" alt="image" class="skills__item">
+                        <img src="assets/img/skills-git.svg" alt="image" class="skills__item">
+                        <img src="assets/img/skills-github.svg" alt="image" class="skills__item">
+                        <img src="assets/img/python.svg" alt="image" class="skills__item">
+                        <img src="assets/img/flask.svg" alt="image" class="skills__item">
+                        <img src="assets/img/nodejs-icon.svg" alt="image" class="skills__item">
+                    </div>
+
+                    <div class="skills__description">
+                        Visit the projects section to see the work done with these technologies.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--==================== PROJECTS ====================-->
+        <section class="projects section" id="projects">
+            <h2 class="section__title">RECENT PROJECTS</h2>
+
+            <div class="projects__container container grid">
+                <article class="projects__card">
+                    <a href="#" target="_blank" class="projects__image">
+                        <img src="assets/projects/project_0.png" alt="image" class="projects__img">
+                    </a>
+
+                    <div class="projects__data">
+                        <h3 class="projects__name">AR Drawing</h3>
+                        <p class="projects__description">
+                            AR Drawing combines creativity with augmented reality, allowing users to draw, sketch, and
+                            design in 3D spaces. Transform your surroundings into a canvas and bring your ideas to life
+                            like never before!
+                        </p>
+
+                        <div class="projects__skills">
+                            <img src="assets/img/android.svg" alt="image" class="projects__skill">
+                            <img src="assets/img/jetpack_compose.svg" alt="image" class="projects__skill">
+                            <img src="assets/img/kotlin.svg" alt="image" class="projects__skill">
+                            <img src="assets/img/skills-figma.svg" alt="image" class="projects__skill">
+                        </div>
+
+                        <!-- <a href="#" target="_blank" class="projects__button">
+                            <i class="ri-link"></i>
+                            <span>Visit Projects</span>
+                        </a> -->
+                        <div class="projects__button">
+                            <i class="ri-progress-1-line"></i>
+                            <span>In Progress...</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="projects__card">
+                    <a href="#" target="_blank" class="projects__image">
+                        <img src="assets/projects/project_1.png" alt="image" class="projects__img">
+                    </a>
+
+                    <div class="projects__data">
+                        <h3 class="projects__name">Health Data Tracker & Monitor</h3>
+                        <p class="projects__description">
+                            Developed Health Data Tracker, an intuitive app for logging health metrics, building
+                            healthy habits, and accessing expert wellness tips. Features AI-powered analytics to support
+                            informed health decisions.
+                        </p>
+
+                        <div class="projects__skills">
+                            <img src="assets/img/android.svg" alt="image" class="projects__skill">
+                            <img src="assets/img/jetpack_compose.svg" alt="image" class="projects__skill">
+                            <img src="assets/img/kotlin.svg" alt="image" class="projects__skill">
+                            <img src="assets/img/skills-figma.svg" alt="image" class="projects__skill">
+                        </div>
+
+                        <a href="https://play.google.com/store/apps/details?id=com.amghubstudio.health.tracker.blood.pressure.sugar.monitor"
+                            target="_blank" class="projects__button">
+                            <i class="ri-link"></i>
+                            <span>Visit Projects</span>
+                        </a>
+                    </div>
+                </article>
+                <article class="projects__card">
+                    <a href="#" target="_blank" class="projects__image">
+                        <img src="assets/projects/project_2.png" alt="image" class="projects__img">
+                    </a>
+
+                    <div class="projects__data">
+                        <h3 class="projects__name">Satellite View GPS Navigation</h3>
+                        <p class="projects__description">
+                            Built Satellite View GPS Navigation, a feature-rich navigation app providing live satellite
+                            maps, voice-guided navigation, and real-time traffic updates. Includes tools like GPS
+                            speedometer, area measurement, and route finder for seamless travel and exploration.
+                        </p>
+
+                        <div class="projects__skills">
+                            <img src="assets/img/android.svg" alt="image" class="projects__skill">
+                            <img src="assets/img/kotlin.svg" alt="image" class="projects__skill">
+                            <img src="assets/img/skills-figma.svg" alt="image" class="projects__skill">
+                        </div>
+
+                        <a href="https://play.google.com/store/apps/details?id=com.livenavigation.location.roadmap.satellitemap.voiceroute.liveearthmap"
+                            target="_blank" class="projects__button">
+                            <i class="ri-link"></i>
+                            <span>Visit Projects</span>
+                        </a>
+                    </div>
+                </article>
+                <!--<article class="projects__card">
+                    <a href="#" target="_blank" class="projects__image">
+                        <img src="assets/img/projects-1.jpg" alt="image" class="projects__img">
+                    </a>
+
+                    <div class="projects__data">
+                        <h3 class="projects__name">Project Name</h3>
+                        <p class="projects__description">
+                            Short description of the project that was carried out in this portfolio.
+                        </p>
+
+                        <div class="projects__skills">
+                            <img src="assets/img/skills-react.svg" alt="image" class="projects__skill">
+                            <img src="assets/img/skills-react.svg" alt="image" class="projects__skill">
+                            <img src="assets/img/skills-react.svg" alt="image" class="projects__skill">
+                        </div>
+
+                        <a href="#" target="_blank" class="projects__button">
+                            <i class="ri-link"></i>
+                            <span>Visit Projects</span>
+                        </a>
+                    </div>
+                </article>
+                <article class="projects__card">
+                    <a href="#" target="_blank" class="projects__image">
+                        <img src="assets/img/projects-1.jpg" alt="image" class="projects__img">
+                    </a>
+
+                    <div class="projects__data">
+                        <h3 class="projects__name">Project Name</h3>
+                        <p class="projects__description">
+                            Short description of the project that was carried out in this portfolio.
+                        </p>
+
+                        <div class="projects__skills">
+                            <img src="assets/img/skills-react.svg" alt="image" class="projects__skill">
+                            <img src="assets/img/skills-react.svg" alt="image" class="projects__skill">
+                            <img src="assets/img/skills-react.svg" alt="image" class="projects__skill">
+                        </div>
+
+                        <a href="#" target="_blank" class="projects__button">
+                            <i class="ri-link"></i>
+                            <span>Visit Projects</span>
+                        </a>
+                    </div>
+                </article>
+            -->
+            </div>
+        </section>
+
+        <!--==================== SERVICES ====================-->
+        <section class="services section" id="services">
+            <h2 class="section__title">SERVICES I OFFER</h2>
+
+            <div class="services__container container grid">
+                <article class="services__card">
+                    <div class="services__icon">
+                        <div class="services__circle"></div>
+                        <i class="ri-code-box-line"></i>
+                    </div>
+
+                    <h3 class="services__name">Mobile App Development</h3>
+                    <div class="services__description">
+                        Design and develop custom mobile applications for both iOS and Android platforms using the
+                        latest technologies to ensure a seamless and user-friendly experience.
+                    </div>
+                </article>
+                <!--<article class="services__card">
+                    <div class="services__icon">
+                        <div class="services__circle"></div>
+                        <i class="ri-server-line"></i>
+                    </div>
+
+                    <h3 class="services__name">Backend Development</h3>
+                    <div class="services__description">
+                        Create robust and scalable back-end solutions with secure API development and seamless database
+                        integration to support your mobile app’s functionality.
+                    </div>
+                </article>-->
+                <article class="services__card">
+                    <div class="services__icon">
+                        <div class="services__circle"></div>
+                        <!-- <i class="ri-pen-nib-line"></i> -->
+                        <i class="ri-brush-line"></i>
+                    </div>
+
+                    <h3 class="services__name">App Design & UI/UX</h3>
+                    <div class="services__description">
+                        Craft stunning mobile interfaces with intuitive designs that enhance user experience and
+                        engagement, ensuring an aesthetically pleasing and easy-to-navigate app.
+                    </div>
+                </article>
+                <article class="services__card">
+                    <div class="services__icon">
+                        <div class="services__circle"></div>
+                        <i class="ri-refresh-line"></i>
+                    </div>
+
+                    <h3 class="services__name">App Maintenance & Updates</h3>
+                    <div class="services__description">
+                        Provide ongoing maintenance and regular updates to keep your app running smoothly, addressing
+                        bugs, improving performance, and introducing new features.
+                    </div>
+                </article>
+                <!--<article class="services__card">
+                    <div class="services__icon">
+                        <div class="services__circle"></div>
+                        <i class="ri-code-s-slash-line"></i>
+                    </div>
+
+                    <h3 class="services__name">Cross-Platform Development</h3>
+                    <div class="services__description">
+                        Develop efficient cross-platform mobile apps using Flutter, reducing time and cost while
+                        ensuring performance across devices.
+                    </div>
+                </article>-->
+            </div>
+        </section>
+
+        <!--==================== EXPERIENCE ====================-->
+        <section class="experience section" id="experience">
+            <h2 class="section__title">WORK EXPERIENCE</h2>
+
+            <div class="experience__container container grid">
+                <article class="experience__card">
+                    <h2 class="experience__company">NeveTech Pvt. Ltd.</h2>
+
+                    <div class="experience__data">
+                        <h3 class="experience__profession">Android developer</h3>
+                        <span class="experience__date">08/23 - Present</span>
+                        <p class="experience__description">
+                            I have developed several key applications, including GPS navigation tools, an Art Generator,
+                            a File Sharing platform, and an AI Background Remover, all enhancing the company’s core
+                            products. I also maintain and update existing apps for optimal performance. Currently, I am
+                            leading the development of an AR Drawing application.
+                        </p>
+                    </div>
+                </article>
+                <article class="experience__card">
+                    <h2 class="experience__company">Metex Labz</h2>
+
+                    <div class="experience__data">
+                        <h3 class="experience__profession">Android developer</h3>
+                        <span class="experience__date">04/23 - 08/23</span>
+                        <p class="experience__description">
+                            I have created a variety of applications, including an AI Art Generator, Status Saver, GPS
+                            Navigation with Mapbox, Photo Editor, and a Face Filter app. I integrated advanced
+                            functionalities using APIs and worked on the full development cycle, from planning and
+                            designing to coding, testing, and deployment. I also collaborated with cross-functional
+                            teams to deliver high-quality applications on time.
+                        </p>
+                    </div>
+                </article>
+                <article class="experience__card">
+                    <h2 class="experience__company">Hura Technologies</h2>
+
+                    <div class="experience__data">
+                        <h3 class="experience__profession">Android developer</h3>
+                        <span class="experience__date">08/22 - 04/23</span>
+                        <p class="experience__description">
+                            I developed several Android applications, including Qibla Direction Finder, Icon Changer,
+                            Wifi Analyzer, Call Theme Changer, Background Remover, Photo Editor, and Gif Editor. I also
+                            maintained and updated existing apps to improve performance and user experience.
+                            Additionally, I led the development of a Sketching app from concept to deployment and
+                            incorporated user feedback to continuously enhance features and usability.
+                        </p>
+                    </div>
+                </article>
+                <article class="experience__card">
+                    <h2 class="experience__company">Lighthouse Development</h2>
+
+                    <div class="experience__data">
+                        <h3 class="experience__profession">Junior Android developer</h3>
+                        <span class="experience__date">09/21 - 08/22</span>
+                        <p class="experience__description">
+                            I developed an inventory system for a local business and a redistribution navigation helper
+                            using Google Maps. I gained experience in both Android and Flutter development and
+                            collaborated with senior developers to improve functionality and user experience. Through my
+                            technical skills and initiative, I successfully transitioned from an intern to a junior
+                            developer role.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">CONTACT ME</h2>
+
+            <div class="contact__container container grid">
+                <form action="" class="contact__form grid" id="contact-form">
+                    <div class="contact__group grid">
+                        <input type="text" name="user_name" placeholder="Name" required class="contact__input">
+                        <input type="email" name="user_email" placeholder="Email" required class="contact__input">
+                    </div>
+                    <textarea name="user_message" placeholder="Message" class="contact__input contact__area"></textarea>
+
+                    <button type="submit" class="button contact__button">Send Message</button>
+
+                    <p class="contact__message" id="contact-message"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <div class="footer__content grid">
+                <a href="#" class="footer__logo">Adnan</a>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#home" class="footer__link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="footer__link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#services" class="footer__link">Services</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__social">
+                <a href="https://www.facebook.com/share/19AVYwhcNU/" target="_blank" class="footer__social-link">
+                    <i class="ri-facebook-circle-line"></i>
+                </a>
+                <a href="https://www.instagram.com/adnandani096?igsh=MWU3eG9yaTZ4cG56Nw==" target="_blank"
+                    class="footer__social-link">
+                    <i class="ri-instagram-line"></i>
+                </a>
+                <a href="https://x.com/adnandani096?t=lDRLVUYK6GxysHWDowUL9w&s=09" target="_blank"
+                    class="footer__social-link">
+                    <i class="ri-twitter-x-line"></i>
+                </a>
+            </div>
+        </div>
+
+        <span class="footer__copy">
+            &#169; All Rights Reserved By Bedimcode
+        </span>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="js/scrollreveal.min.js"></script>
+
+    <!--=============== EMAIL JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
